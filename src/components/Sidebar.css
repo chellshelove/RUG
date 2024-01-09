@@ -98,6 +98,12 @@
   .logo{
     display: flex;
   }
+  .menuItem.user {
+    position: absolute;
+    bottom: 4.6rem;
+    width: 100%;
+  }
+  
   .menu .menuItem:last-child {
     position: relative;
     margin-top: 6rem;
