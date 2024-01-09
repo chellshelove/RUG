@@ -1,4 +1,4 @@
-Robust Unified Garden (RUG) - A website application for on-the-go food distributors
+# Robust Unified Garden (RUG) - A website application for on-the-go food distributors
 
 Made by :
 Avariq Fazlur Rahman - 2502043002
