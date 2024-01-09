@@ -14,4 +14,4 @@ Muhammad Alfin Rizqullah - SID
 
 Sulthan S. Prabowo - 2502020075
 
-Sandrian G. Wardana - 2502016411
+Sandrian Wardana - 2502016411
