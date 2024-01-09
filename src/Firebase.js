@@ -17,18 +17,18 @@ import {
   where,
   addDoc,
 } from "firebase/firestore";
+import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDmBIGINowu3fY0e3a8MadfMN-oFxG-X70",
-  authDomain: "rug-webapp.firebaseapp.com",
-  projectId: "rug-webapp",
-  storageBucket: "rug-webapp.appspot.com",
-  messagingSenderId: "461828893180",
-  appId: "1:461828893180:web:ea381cfe8131cb8b0faa79",
-  measurementId: "G-EE2161E4L1"
+  apiKey: "AIzaSyDQeS_dIcaWKzccsJpWkuqEyZQOHZZfhkM",
+  authDomain: "brad-admin-prototype-v2.firebaseapp.com",
+  projectId: "brad-admin-prototype-v2",
+  storageBucket: "brad-admin-prototype-v2.appspot.com",
+  messagingSenderId: "916829089689",
+  appId: "1:916829089689:web:24749e81bbf5ed2085ad08"
 };
 
 // Initialize Firebase
