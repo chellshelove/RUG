@@ -12,6 +12,6 @@ Chellshe Love Simrochelle - SID
 
 Muhammad Alfin Rizqullah - SID
 
-Sulthan S. Prabowo - SID
+Sulthan S. Prabowo - 2502020075
 
 Sandrian G. Wardana - 2502016411
