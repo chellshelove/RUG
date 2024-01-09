@@ -3,15 +3,9 @@
 Made by :
 
 Avariq Fazlur Rahman - 2502043002
-
 Bayu Hartho - SID
-
 Bernard Choa - SID
-
 Chellshe Love Simrochelle - SID
-
 Muhammad Alfin Rizqullah - SID
-
 Sulthan S. Prabowo - SID
-
 Sandrian G. Wardana - SID
