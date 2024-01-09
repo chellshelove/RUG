@@ -1,0 +1,64 @@
+.CustomerReview {
+    /* Display and alignment */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  
+    /* Border and background */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h3 {
+    /* Font size and weight */
+    font-size: 24px;
+    font-weight: bold;
+  
+    /* Margin */
+    margin-bottom: 20px;
+  }
+  
+  Form {
+    /* Margin */
+    margin: 10px 0;
+  }
+  
+  Form.Group {
+    /* Margin */
+    margin-bottom: 10px;
+  }
+  
+  Form.Label {
+    /* Display and block layout */
+    display: block;
+  
+    /* Margin */
+    margin-bottom: 5px;
+  }
+  
+  Form.Control {
+    /* Width */
+    width: 100%;
+  
+    /* Padding */
+    padding: 10px;
+  
+    /* Border */
+    border: 1px solid #ccc;
+  }
+  
+  Button {
+    /* Float */
+    float: right;
+  
+    /* Background, color, and padding */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+  
+    /* Border and cursor */
+    border: none;
+    cursor: pointer;
+  }
+  
