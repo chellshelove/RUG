@@ -35,7 +35,8 @@ function Login() {
                     seterrorMsg(errorMessage);
                 });
         } else {
-            logInWithEmailAndPassword(username, email, password)
+            console.log(username);
+            logInWithEmailAndPassword(email, password)
             .catch((error) => {
                 seterror(true)
                 const errorMessage = error.message;
@@ -64,7 +65,7 @@ function Login() {
             </h2>
 
             <form onSubmit={submit}>
-                {NewUser && (
+                {NewUser &&
                     <div className="username">
                         <input
                             onChange={(e) => setusername(e.target.value)}
@@ -74,7 +75,7 @@ function Login() {
                         />
                         <label  htmlFor="username">username</label>
                     </div>
-                )}
+                }
 
                 <div className="email">
                     <input

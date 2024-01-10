@@ -23,12 +23,13 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDQeS_dIcaWKzccsJpWkuqEyZQOHZZfhkM",
-  authDomain: "brad-admin-prototype-v2.firebaseapp.com",
-  projectId: "brad-admin-prototype-v2",
-  storageBucket: "brad-admin-prototype-v2.appspot.com",
-  messagingSenderId: "916829089689",
-  appId: "1:916829089689:web:24749e81bbf5ed2085ad08"
+  apiKey: "AIzaSyBKsSoYfO1KEn8Rb1_RfolXqEgYzwDRlq0",
+  authDomain: "rug-web-application.firebaseapp.com",
+  projectId: "rug-web-application",
+  storageBucket: "rug-web-application.appspot.com",
+  messagingSenderId: "472255326355",
+  appId: "1:472255326355:web:169d97164262b866ae4566",
+  measurementId: "G-KTWHGMMZ6R"
 };
 
 // Initialize Firebase
