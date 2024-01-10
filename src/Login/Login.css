@@ -35,7 +35,7 @@
 
 .login-page header span {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.534);
+    color: rgba(205, 255, 124, 0.534);
 }
 
 .login-page header span i {
@@ -124,7 +124,7 @@
     border: none;
     border-radius: 3px;
     margin-top: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     cursor: pointer;
 }
@@ -140,7 +140,7 @@ button:active {
 
 .user-stat b {
     /* color: #00CB2C; */
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
