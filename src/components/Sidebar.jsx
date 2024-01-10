@@ -73,7 +73,7 @@ const Sidebar = () => {
               <span>Who's logged in? {user.email}</span>
             </div>
           )}
-
+          
           <div className="menuItem">
             <UilSignOutAlt onClick={logout}/>
           </div>
