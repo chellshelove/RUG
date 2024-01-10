@@ -6,7 +6,7 @@ Avariq Fazlur Rahman - 2502043002
 
 Bayu Hartho - 2502013731
 
-Bernard Choa - SID
+Bernard Choa - 2502022414
 
 Chellshe Love Simrochelle - SID
 
@@ -16,7 +16,7 @@ Sulthan S. Prabowo - 2502020075
 
 Sandrian G. Wardana - 2502016411
 
-# The live link for the project can be hound here:
+# The live link for the project can be found here:
 
 https://rugapp.web.app/
 
