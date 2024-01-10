@@ -16,6 +16,10 @@ Sulthan S. Prabowo - 2502020075
 
 Sandrian G. Wardana - 2502016411
 
+# The live link for the project can be hound here:
+
+https://rugapp.web.app/
+
 # How to run the project
 
 Make sure that **yarn** is installed
