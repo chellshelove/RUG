@@ -36,25 +36,35 @@ const Items = ({onClose, open}) => {
     const submit = async (e) => {
         e.preventDefault();
         try {
-            const itemUUID = uuid4();
-            await addDoc(collection(db, 'users', userDocId, 'items'), {
-            itemId: itemUUID,
-            itemName: itemName,
-            discount: discount,
-            stock: stock,
-            price: price,
-            currentStatus: currentStatus,
-            desc: desc
-        });
-        console.log("Item details added successfully!");
-        // Show a popup
-        const el = document.createElement("div");
-        el.className = "popup";
-        el.innerHTML = "Item details added successfully!";
-        document.body.appendChild(el);
-        setTimeout(() => {
-            document.body.removeChild(el);
-        }, 2000);
+            if (!(isNaN(price) || isNaN(stock))) {
+                if (/\d/.exec(itemName)) {
+                    alert("Please enter a valid item name.");
+                } else {
+                    const itemUUID = uuid4();
+                    await addDoc(collection(db, 'users', userDocId, 'items'), {
+                    itemId: itemUUID,
+                    itemName: itemName,
+                    discount: discount,
+                    stock: stock,
+                    price: price,
+                    currentStatus: currentStatus,
+                    desc: desc
+                    })
+                    console.log("Item details added successfully!");
+                    // Show a popup
+                    const el = document.createElement("div");
+                    el.className = "popup";
+                    el.innerHTML = "Item details added successfully!";
+                    document.body.appendChild(el);
+                    setTimeout(() => {
+                        document.body.removeChild(el);
+                    }, 2000);
+                }
+            } else {
+                alert('Please enter a valid number for Price and Stock!');
+            }
+        ;
+        
         } catch (err) {
             alert(err);
         }

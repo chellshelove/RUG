@@ -3,6 +3,7 @@ import { auth, db } from "../../Firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import {onSnapshot, collection, getDocs, addDoc, Timestamp, query, where} from "firebase/firestore";
 import { v4 as uuid4 } from 'uuid';
+import {} from 're';
 import "./Vendors.css";
 
 const Vendors = ({onClose, open}) => {
